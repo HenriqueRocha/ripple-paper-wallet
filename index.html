@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<script src="qrcode.min.js"></script>
-		<style>
-		#qrcodes {
-		    width: 100%;
-		}
-		</style>
-		<title>Ripple (XRP) Paper Wallet Generator</title>
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <script src="jquery.min.js"></script>
+  <script src="qrcode.min.js"></script>
+  <style>
+  #qrcodes {
+    width: 100%;
+  }
+  </style>
+  <title>Ripple (XRP) Paper Wallet Generator</title>
+</head>
 
-	<body>
-		<table id="qrcodes">
-			<tr>
-				<td>
-					<h1>Seed</h1>
-					<p id="seed"></p>
-					<div id="qrcode-seed"> </div>
-				</td>
+<body>
+  <table id="qrcodes">
+    <tr>
+      <td>
+        <h1>Seed</h1>
+        <p id="seed"></p>
+        <div id="qrcode-seed"> </div>
+      </td>
 
-				<td>
+      <td>
 
-		<h1>Public Key</h1>
-		<p id="public_key"></p>
-		<div id="qrcode-public_key"> </div>
-				</td>
-			</tr>
+        <h1>Public Key</h1>
+        <p id="public_key"></p>
+        <div id="qrcode-public_key"> </div>
+      </td>
+    </tr>
 
-			<tr>
-				<td>
-		<h1>Public Address</h1>
-		<p id="public_address"></p>
-		<div id="qrcode-public_address"> </div>
-				</td>
+    <tr>
+      <td>
+        <h1>Public Address</h1>
+        <p id="public_address"></p>
+        <div id="qrcode-public_address"> </div>
+      </td>
 
-				<td>
-		<h1>Private Key</h1>
-		<p id="private_key"></p>
-		<div id="qrcode-private_key"> </div>
-				</td>
-			</tr>
-		</table>
+      <td>
+        <h1>Private Key</h1>
+        <p id="private_key"></p>
+        <div id="qrcode-private_key"> </div>
+      </td>
+    </tr>
+  </table>
 
-		<script src="bundle.js"></script>
-	</body>
+  <script src="bundle.js"></script>
+</body>
 </html>
